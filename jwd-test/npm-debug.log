@@ -1,0 +1,60 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-D', 'assert/' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'assert/', null ]
+7 verbose cache add name=undefined spec="assert/" args=["assert/",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'assert/',
+8 verbose parsed url   path: 'assert/',
+8 verbose parsed url   href: 'assert/' }
+9 silly lockFile b9ceb4aa-assert assert/
+10 verbose lock assert/ /home/vagrant/.npm/b9ceb4aa-assert.lock
+11 info maybeGithub Attempting assert/ from git://github.com/assert/
+12 silly lockFile bdfe9956-git-github-com-assert git://github.com/assert/
+13 verbose lock git://github.com/assert/ /home/vagrant/.npm/bdfe9956-git-github-com-assert.lock
+14 verbose addRemoteGit [ 'git://github.com/assert/', 'master' ]
+15 verbose git clone git://github.com/assert/ Cloning into bare repository '/home/vagrant/.npm/_git-remotes/git-github-com-assert--bdfe9956'...
+15 verbose git clone git://github.com/assert/ fatal: remote error:
+15 verbose git clone git://github.com/assert/   Repository not found.
+16 silly lockFile bdfe9956-git-github-com-assert git://github.com/assert/
+17 silly lockFile bdfe9956-git-github-com-assert git://github.com/assert/
+18 info maybeGithub Attempting assert/ from git+ssh://git@github.com:assert/
+19 silly lockFile b4df4ee8-git-github-com-assert git@github.com:assert/
+20 verbose lock git@github.com:assert/ /home/vagrant/.npm/b4df4ee8-git-github-com-assert.lock
+21 verbose addRemoteGit [ 'git@github.com:assert/', 'master' ]
+22 error git clone git@github.com:assert/ Cloning into bare repository '/home/vagrant/.npm/_git-remotes/git-github-com-assert--b4df4ee8'...
+22 error git clone git@github.com:assert/ Warning: Permanently added 'github.com,192.30.252.131' (RSA) to the list of known hosts.
+22 error git clone git@github.com:assert/ Permission denied (publickey).
+22 error git clone git@github.com:assert/ fatal: Could not read from remote repository.
+22 error git clone git@github.com:assert/
+22 error git clone git@github.com:assert/ Please make sure you have the correct access rights
+22 error git clone git@github.com:assert/ and the repository exists.
+23 silly lockFile b4df4ee8-git-github-com-assert git@github.com:assert/
+24 silly lockFile b4df4ee8-git-github-com-assert git@github.com:assert/
+25 silly lockFile b9ceb4aa-assert assert/
+26 silly lockFile b9ceb4aa-assert assert/
+27 error addLocal Could not install assert/
+28 error Error: ENOENT, stat 'assert/'
+29 error If you need help, you may report this *entire* log,
+29 error including the npm and node versions, at:
+29 error     <http://github.com/npm/npm/issues>
+30 error System Linux 3.16.0-23-generic
+31 error command "/usr/bin/node" "/usr/bin/npm" "install" "-D" "assert/"
+32 error cwd /home/vagrant/Code/jwd-test/jwd-test
+33 error node -v v0.10.37
+34 error npm -v 1.4.28
+35 error path assert/
+36 error code ENOENT
+37 error errno 34
+38 verbose exit [ 34, true ]
