@@ -5,8 +5,10 @@ $(document).ready(function() {
         if(IsEmail(email)==false){
             $('#invalid_email').show();
             return false;
+        }else{
+            return true;
         }
-        return false;
+
     });
 });
 function IsEmail(email) {
